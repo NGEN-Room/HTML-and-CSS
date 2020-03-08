@@ -7,40 +7,6 @@ When creating your blog remember that even though your blog will serve a purpose
 
 Also remember you are more than welcome to copy and paste but if you want to actually learn what you are doing then doing it from scratch or breaking down what you copy and pasted so you know what does what
 
-
-## Set up part one - Add HTML Page
-1. Head over to where you saved or cloned your blog code
-2. Once there in your command line make a new folder called blog (Hint: mkdir)
-2. CD into this folder and create a file caled `tech-blog-1.html`(hint: touch)
-3. Open `tech-blog-1.html` in your code editor (hint: code)
-4. create a HTML basic setup (html, head, title, etc.) which you can easily do using this shortcut ` ! + enter key`
-5. in the body section create an H1 tag and write in what ever you want.  (Hint: every tag needs a closer and opener tag )
-
-This will be used for you to copy your tech blogs and show off your understanding of coding
-
-Stage, commit and push
-
-To view this file online go to `username.github.io/blog/tech-blog-1.html`
-
-this will show you your blog post online
-
-
-## Set up part one - Link CSS stylesheet
-1. currently you have a line of code in your index.html ( on the main directoy root of your repo ) which is bugged. 
-2. To sort this bug out you are wanting to connect it to the correct css stylesheet name
-``` 
-Current code line 7:   <link rel="stylesheet" href="styles.css">
-current style sheet name: index.css
-
-AS you can see the link in index.html ( href="styles.css" ) is not correctly linked to the index.css 
-
-index.css ---> href="styles.css" 
-vs 
-index.css ---> href="index.css"
-```
-3. what you need to do is change the link in index.html from href="styles.css" to href="index.css"
-4. once you have changed this you should be able to see the css changes on your live server
-
 # Options of learning
 ## HTML + Css Basics: Udacity ( Watching and action )
 I will be using other free resources such as freecodecamp and udacity to help teach you a little bit more about html and what it is. Udacity learning style is to show a video and then do some sort of action after. If this sounds like you then i recommend the below
@@ -66,14 +32,7 @@ Learn Code academy's video [tutorial for beginners](https://www.youtube.com/watc
 [Udacity HTML, CSS, and Boxes](https://classroom.udacity.com/courses/ud304) 
 
 
-## Blog Challenges
-- Set up a basic HTML page with the appropriate tags (html, head, title, etc.)  
-- Add paragraphs, headings, links, images, lists, and/or tables  
-- Divide content on a page using divs and spans  
-- Link an external stylesheet to an html document  
-- Position elements using CSS  
-- Modify element style (size, color, etc) using CSS  
-- Compare and use classes and ids to manipulate elements  
+
 
 ## Tech Blog + pull new changes 
 Alright your ready to fill out your tech blog and learn how to update any new changes that have arrived.
@@ -104,6 +63,54 @@ Once you have finished stage, commit, and push to github.
     - either you need to pull the master repo down to your local machine. This is because you probably have an older version and just need to update the repo with the new changes and new branches that you hopefully created and pushed
     - or, you didnt push up your branch from the last local machine that you had so you dont have any online version to switch to. if this is the case then go to where you last were on and push it up.
 
+
+# Blog Challenges
+- Set up a basic HTML page with the appropriate tags (html, head, title, etc.)  
+- Add paragraphs, headings, links, images, lists, and/or tables  
+- Divide content on a page using divs and spans  
+- Link an external stylesheet to an html document  
+- Position elements using CSS  
+- Modify element style (size, color, etc) using CSS  
+- Compare and use classes and ids to manipulate elements  
+- On your main index.html ( your landign page) put some information on it such as your pepeha and what the reason of your blog will used for.
+- connect up your other pages to you main page
+
+## Set up part one - Add Another HTML Page
+1. Head over to where you saved or cloned your blog code using cmd line
+2. Once there in your command line make a new folder called blog (Hint: mkdir)
+2. CD into this folder and create a file caled `tech-blog-1.html`(hint: touch)
+3. Open `tech-blog-1.html` in your code editor (hint: code)
+4. create a HTML basic setup (html, head, title, etc.) which you can easily do using this shortcut ` ! + enter key`
+5. in the body section create an H1 tag and copy your contents from your Techanical Blog week one into.  You can come back to change this later
+6. This will be used for you to copy your tech blogs and show off your understanding of coding. By the end of tomorrow we should see tech-blog-1.html, tech-blog-2.html, tech-blog-3.html. Simply by copying and pasting your tech blogs into those areas.
+7. do the same for your Reflection blogs. Create new file > Name it reflection-blog-one.html > create basic html > copy your contents from reflection blog week one into this file > Stage commit push
+
+To view this file online go to `your-username.github.io/blog/tech-blog-1.html`
+
+this will show you your blog post online
+
+
+## Set up part one - Link CSS stylesheet
+1. currently you have a line of code in your index.html ( on the main directoy root of your repo ) which is bugged. 
+2. To sort this bug out you are wanting to connect it to the correct css stylesheet name
+``` 
+Current code line 7:   <link rel="stylesheet" href="styles.css">
+current style sheet name: index.css
+
+AS you can see the link in index.html ( href="styles.css" ) is not correctly linked to the index.css 
+
+index.css ---> href="styles.css" 
+vs 
+index.css ---> href="index.css"
+```
+3. what you need to do is change the link in index.html from href="styles.css" to href="index.css"
+4. once you have changed this you should be able to see the css changes on your live server ( for your landing page )
+5. Now what we want to do is connect a CSS page to all the other blogs. NOTE: usually you would have one CSS stylesheet which you can link to so everything is cohesive. 
+6. just like on the index.html page. create a link into one of the blog htmls.
+7. NOW if you copy and paste the css link into the head this will not work. Reason being is that in the link you are pointing to a style sheet in that directoy ( or blog folder ).
+8. what you want to do is link that style sheet ( in the blog htmls ) back to the index.css a layer above. (remember how you would go up a level or directory in your command line )
+9. once you have linked all the files to the css file you are ready to start experimenting, changing and creating your blog using HTML and CSS
+10. why are you still here do you blog
 
 
 
