@@ -1,7 +1,4 @@
 # HTML & CSS
-
-Before you start make sure to "git iam te-piha" ( git iam your-name ) into the command line. this will make future commits and pushes yours
-
 ## Overview
 Last session we created our blogs using github pages > we then created a basic HTML file > staged, commited and pushed that to Github. This lesson we are looking to build your blog using HTML and CSS while also getting used to Github, command line and VScode. You will be learning HTML through online resources and applying that to your blog.
 
